@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WORDLE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">WO<span>RD</span>LE</div>
+</header>
+
+<div id="toast"></div>
+
+<div id="stats-bar">
+  <div class="stat"><div class="stat-num" id="s-played">0</div><div class="stat-label">PLAYED</div></div>
+  <div class="stat"><div class="stat-num" id="s-wins">0</div><div class="stat-label">WINS</div></div>
+  <div class="stat"><div class="stat-num" id="s-streak">0</div><div class="stat-label">STREAK</div></div>
+</div>
+
+<div id="board"></div>
+
+<div id="keyboard">
+  <div class="kb-row" id="row1"></div>
+  <div class="kb-row" id="row2"></div>
+  <div class="kb-row" id="row3"></div>
+</div>
+
+<button id="new-game">NEW GAME</button>
+
+<script src="script.js"></script>
+</body>
+</html>
